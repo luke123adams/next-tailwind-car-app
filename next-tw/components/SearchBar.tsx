@@ -14,7 +14,8 @@ export const SearchBar = () => {
         <div className="searchbar__item">
             <SearchManufacturer
             manufacturer={manufacturer}
-            setManufacturer={setManufacturer} />
+            setManufacturer={setManufacturer}
+             />
         </div>
     </form>
   )
