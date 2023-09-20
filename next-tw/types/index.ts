@@ -1,4 +1,5 @@
 import { MouseEventHandler } from 'react'
+import { StringLiteral } from 'typescript';
 
 export interface CustomButtonProps {
     title: string;
@@ -37,4 +38,14 @@ export interface FilterProps {
     year: number;
     fuel: string;
     limit: number;
+}
+
+export interface OptionProps {
+    title: string;
+    value: string;
+}
+
+export interface CustomFilterProps {
+    title: string;
+    options: OptionProps[];
 }
